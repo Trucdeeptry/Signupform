@@ -137,7 +137,8 @@
     margin-bottom: 40px;
     outline: none;
 }
-.info_name:focus ~ .info_placeholder{
+.info_name:focus ~ .info_placeholder,
+.info_name:valid ~ .info_placeholder{
    top: -25px;
 }
 
