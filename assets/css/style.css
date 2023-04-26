@@ -36,6 +36,16 @@
    text-align: center;
    align-items: center;
    display: none;
+   z-index: 1;
+}
+.language_choose::before{
+    display: block;
+    content: "";
+    width: 120px;
+    height: 20px;
+    position: absolute;
+    top: -15px;
+    right: 0;
 }
 .language-text{
     display: block;
@@ -75,7 +85,7 @@
 .content_sup{
     position: relative;
     margin-left: 25px;
-    z-index: 1;
+
     margin-top: 25px;
     width: 400px;
 }
@@ -166,10 +176,12 @@
 .content_sub-text{
    color: white;
    font-weight: 300;
+   
 }
 .content_img{
     margin-top: 35px;
     margin-left: 85px;
+    z-index: 1;
 }
 .create-wrapper{
     text-decoration: none;
