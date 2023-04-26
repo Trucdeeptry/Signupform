@@ -94,6 +94,7 @@
 }
 .sign-in-with:hover{
     background-color: #8ACBCE;
+    border-color: #2ca3aa;
     
 }
 .sign-in-with:hover .sign-in_text{
