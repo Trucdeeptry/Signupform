@@ -133,7 +133,10 @@
 .info_name:valid ~ .info_placeholder{
    top: -25px;
 }
-
+.info_name:focus{
+    border-bottom: 1px solid #8ACBCE;
+    
+}
 
 .info_placeholder{
     position: absolute;
